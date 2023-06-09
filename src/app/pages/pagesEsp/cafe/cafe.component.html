@@ -1,0 +1,74 @@
+<div class="container-fluid con-top">
+  <div class="row">
+    <div class="col">
+      <p class="con-top-text">Menú - Bebidas calientes</p>
+    </div>
+  </div>
+</div>
+
+<app-go-back></app-go-back>
+
+<div class="container food-container">
+  <div class="row menu-title-container">
+    <h4 class="menu-title">- Desayunos -</h4>
+  </div>
+  <div class="row mt-3 mr-1 ml-1 item-container" *ngFor="let item of desayunoList; index as i">
+    <div class="col-8">
+      <div class="row pr-2">
+        <div>
+          <h4 class="item-title">
+            {{item.name | uppercase}}
+            <br>
+            <span class="item-ingredients">
+              {{item.ingredients}}
+            </span>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row">
+        <div class="col-6 p-0">
+          <img class="food-img" [src]="desayunoList[i] | imagen" alt="">
+        </div>
+        <div class="col-6 price-container">
+          <span class="price-content">{{item.price}} Bs.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br>
+
+<div class="container food-container">
+  <div class="row menu-title-container">
+    <h4 class="menu-title">- Bebidas calientes -</h4>
+  </div>
+  <div class="row mt-3 mr-1 ml-1 item-container"
+       *ngFor="let item of cafeList; index as i">
+    <div class="col-8">
+      <div class="row pr-2">
+        <div>
+          <h4 class="item-title">
+            {{item.name | uppercase}}
+            <br>
+            <span class="item-ingredients">
+              {{item.ingredients}}
+            </span>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row">
+        <div class="col-6 p-0">
+          <img class="food-img" [src]="cafeList[i] | imagen" alt="">
+        </div>
+        <div class="col-6 price-container">
+          <span class="price-content">{{item.price}} Bs.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

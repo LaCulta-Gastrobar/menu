@@ -1,0 +1,14 @@
+body{
+  margin: 0px;
+}
+.logo-menu{
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.btn-space{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  background: #9E231C;
+}
