@@ -1,0 +1,47 @@
+<router-outlet *ngIf="menu"></router-outlet>
+
+<div *ngIf="menuIntern">
+
+  <div>
+    <img class="logo-menu" src="assets/images/Logo-menu.png" width="100%" alt="">
+  </div>
+
+  <div class="container mt-4">
+    <div class="row button-row">
+      <div class="col btn-space">
+        <button type="button" class="btn p-4" (click)="goComponent('comidaEng')">
+          <img src="assets/logo/fork-and-knife.png" width="60px" alt="">
+        </button>
+      </div>
+      <div class="col btn-space">
+        <button type="button" class="btn p-4" (click)="goComponent('bebidaEng')">
+          <img src="assets/logo/drink.png" width="60px" alt="">
+        </button>
+      </div>
+    </div>
+    <div class="row mt-4 button-row">
+      <div class="col btn-space">
+        <button type="button" class="btn p-4" (click)="goComponent('cafeEng')">
+          <img src="assets/logo/coffee-cup.png" width="60px" alt="">
+        </button>
+      </div>
+      <div class="col btn-space">
+        <button type="button" class="btn p-4" (click)="goComponent('postreEng')">
+          <img src="assets/logo/sweets.png" width="60px" alt="">
+        </button>
+      </div>
+    </div>
+    <div class="row mt-4 button-row">
+      <div class="col btn-space">
+        <button type="button" class="btn p-4" (click)="goComponent('promoEng')">
+          <img src="assets/logo/price-tag.png" width="60px" alt="">
+        </button>
+      </div>
+      <div class="col btn-space">
+        <button type="button" class="btn p-4" (click)="goComponent('juegoEng')">
+          <img src="assets/logo/dice.png" width="60px" alt="">
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
