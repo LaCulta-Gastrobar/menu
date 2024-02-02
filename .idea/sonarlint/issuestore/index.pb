@@ -47,3 +47,7 @@ i
 9src/app/pages/pagesEng/juego-eng/juego-eng.component.html,7/f/7ff449ebfabfdd9b88efcfc9ce2000e617a2ac8a
 g
 7src/app/pages/pagesEng/juego-eng/juego-eng.component.ts,5/c/5ce64c30d8489c2e58945f2f3582f47adef73034
+=
+tsconfig.json,6/1/61ebb9fd6e8cf9082658121d5d81e297791dacd0
+<
+angular.json,e/9/e92338c6e49ff34f9022980cc89bbebd60974bad
