@@ -51,3 +51,9 @@ g
 tsconfig.json,6/1/61ebb9fd6e8cf9082658121d5d81e297791dacd0
 <
 angular.json,e/9/e92338c6e49ff34f9022980cc89bbebd60974bad
+Z
+*src/app/pages/footer/footer.component.html,8/9/8953e83224dc6c85e52a25937c61a6924939b247
+V
+&src/app/pages/main/main.component.html,0/3/0329dac13ccf3274f6b6bb9aaf6f483f75e474cf
+_
+/src/app/pages/pagesEsp/menu/menu.component.html,d/1/d121bf206672ec16159a94c38a13f04f598b6066
