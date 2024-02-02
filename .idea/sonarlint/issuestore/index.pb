@@ -43,3 +43,7 @@ a
 1src/app/pages/pagesEsp/promo/promo.component.html,d/3/d3404f70018875ae6198250779a0876c4789d73f
 _
 /src/app/pages/pagesEsp/promo/promo.component.ts,c/6/c60859ce1e57c70c375fbb48e9853a2ae8809d2e
+i
+9src/app/pages/pagesEng/juego-eng/juego-eng.component.html,7/f/7ff449ebfabfdd9b88efcfc9ce2000e617a2ac8a
+g
+7src/app/pages/pagesEng/juego-eng/juego-eng.component.ts,5/c/5ce64c30d8489c2e58945f2f3582f47adef73034

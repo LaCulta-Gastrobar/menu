@@ -22,22 +22,22 @@ export class JuegoEngComponent {
     [
       {
         name: "Uno",
-        price: "Gratis",
+        price: "FREE",
         img: "Uno"
       },
       {
         name: "Playing cards",
-        price: "Gratis",
+        price: "FREE",
         img: "Cartas"
       },
       {
         name: "Cacho",
-        price: "Gratis",
+        price: "FREE",
         img: "Cacho"
       },
       {
         name: "Yenga",
-        price: "Gratis",
+        price: "FREE",
         img: "Yenga"
       },
     ]
