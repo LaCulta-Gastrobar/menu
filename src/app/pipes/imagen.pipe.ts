@@ -8,7 +8,7 @@ import { LaCultaElement } from '../interfaces/element.interface';
 export class ImagenPipe implements PipeTransform {
 
   transform(laCultaElement: LaCultaElement): string {
-    return `~src/assets/element/${laCultaElement.img}.jpg`;
+    return `assets/element/${laCultaElement.img}.jpg`;
   }
 
 }
