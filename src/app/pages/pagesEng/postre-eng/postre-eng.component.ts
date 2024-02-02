@@ -19,12 +19,17 @@ import {GoBackEngComponent} from "../../../shared/go-back-eng/go-back-eng.compon
 export class PostreEngComponent {
 
   postreList: LaCultaElement[] =
-    [
-      {
-        name: "Sable of berries",
-        price: 20,
-        img: "Sable"
-      }
-    ]
+      [
+        {
+          name: "Red Berry Shortbread",
+          price: 22,
+          img: "Sable"
+        },
+        {
+          name: "Helados artesanales",
+          price: 15,
+          img: ""
+        }
+      ]
 
 }

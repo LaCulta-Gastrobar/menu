@@ -110,6 +110,10 @@ export class BebidaComponent {
         price: 75,
       },
       {
+        name: "Ratafia 250 ml",
+        price: 50,
+      },
+      {
         name: "Ratafia 50 ml",
         price: 35,
       },
@@ -137,7 +141,6 @@ export class BebidaComponent {
     ]
 
   autorList: LaCultaElement[] =
-
     [
       {
         name: "Horchalita",

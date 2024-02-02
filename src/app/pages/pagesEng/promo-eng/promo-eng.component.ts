@@ -18,60 +18,50 @@ import {GoBackEngComponent} from "../../../shared/go-back-eng/go-back-eng.compon
 })
 export class PromoEngComponent {
 
-  promoList: LaCultaElement[] =
+promoList: LaCultaElement[] =
     [
-      {
-        name: "Rum",
-        price: "30",
-        img: "Vaso_Ron"
-      },
-      {
-        name: "Singani",
-        price: "30",
-        img: "Vaso_Singani"
-      },
-      {
-        name: "Fernet",
-        price: "30",
-        img: "Vaso_Ron"
-      },
-      {
-        name: "Fruity Mojito",
-        price: "40",
-        img: "Mojito_Frutado_Promo"
-      },
-      {
-        name: "Dirty Mojito",
-        price: "40",
-        img: "Dirty_Mojito"
-      },
-      {
-        name: "Caipirinha",
-        price: "40",
-        img: "Caipirinha"
-      },
-      {
-        name: "Blonde or craft beer",
-        price: "30",
-        img: "Promo_Artesanal"
-      },
-      {
-        name: "Gin with Gin/Tonic",
-        price: 50,
-        img: "Promo_Gin"
-      },
-      {
-        name: "Ajenjo Collins",
-        price: 35,
-        img: ""
-      },
-      {
-        name: "Bucket of bottles",
-        price: 90,
-        recomendation: "5 mixed beers",
-        img: ""
-      }
-
+        {
+            name: "Chuflay",
+            price: "40",
+        },
+        {
+            name: "Cuba Libre",
+            price: "40",
+        },
+        {
+            name: "Fernet",
+            price: "35",
+        },
+        {
+            name: "Mojito Frutado",
+            price: "40",
+            img: "Mojito_Frutado_Promo"
+        },
+        {
+            name: "Dirty Mojito",
+            price: "35",
+            img: "Dirty_Mojito"
+        },
+        {
+            name: "Caipirinha",
+            price: "35",
+            img: "Caipirinha"
+        },
+        {
+            name: "Cerveza rubia o artesanal",
+            price: "30",
+            img: "Promo_Artesanal"
+        },
+        {
+            name: "Gin con Gin/Tonic",
+            price: 60,
+            img: "Promo_Gin"
+        },
+        {
+            name: "Ajenjo Collins",
+            price: 50,
+            img: ""
+        },
     ]
 
 }

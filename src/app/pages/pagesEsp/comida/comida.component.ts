@@ -54,7 +54,7 @@ export class ComidaComponent {
   vegetarianaList: LaCultaElement[] =
     [
       {
-        name: "Pique Vegetariana",
+        name: "Pique Vegetariano",
         price: 45,
         ingredients: "Setas, huevo, papa frita, tomate, cebolla, salsas, mayonesa y mayonesa picante."
       },
