@@ -111,7 +111,7 @@ export class ComidaComponent {
       {
         name: "Cordon Bleu",
         price: 45,
-        ingredients: "Lomo, salchicha, papa frita, tomate, cebolla, huevo de codorniz, salsas, mayonesa y mayonesa picante.",
+        ingredients: "Arroz primavera, filete de pollo de jamón y queso, salsa especial de la casa.",
         img: ""
       },
       {
