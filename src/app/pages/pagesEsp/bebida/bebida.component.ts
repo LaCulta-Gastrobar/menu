@@ -641,7 +641,7 @@ export class BebidaComponent {
       {
         name: "Gin Hendricks",
         priceGlass: 30,
-        price: 400,
+        price: 500,
       }
     ]
 
